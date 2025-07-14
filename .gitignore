@@ -1,0 +1,55 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime files
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+jspm_packages/
+
+# dotenv environment files (credentials/secrets)
+.env
+.env.local
+.env.*.local
+
+# Coverage output (from testing tools like Jest)
+coverage/
+
+# TypeScript cache (if you're using TypeScript)
+*.tsbuildinfo
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Misc
+*.tgz
+*.swp
+*.bak
+*.tmp
+.prettiercache
+.eslintcache
+package-lock.json # optional if you're using yarn/pnpm instead
+
+# Firebase / Prisma / Other tools (optional)
+firebase-debug.log
+.prisma/
